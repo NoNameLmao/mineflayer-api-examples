@@ -7,7 +7,7 @@ which is installed with mineflayer automatically.
 const mcdata = require('minecraft-data')('<any version from 1.0.0 to 22w14a>');
 ```
 
-- (RECOMMENDED) Using bot.registry after creating a mineflayer bot
+- (RECOMMENDED) Using [bot.registry](https://github.com/NoNameLmao/mineflayer-api-examples/blob/main/bot/registry.md) after creating a mineflayer bot
 ```js
 const mcdata = bot.registry;
 ```
