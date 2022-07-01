@@ -5,3 +5,4 @@ see [minecraft-data.md](https://github.com/NoNameLmao/mineflayer-api-examples/bl
 
 List of contents:
 - [minecraft-data.md](https://github.com/NoNameLmao/mineflayer-api-examples/blob/main/enums/minecraft-data.md)
+- [blocks.md](https://github.com/NoNameLmao/mineflayer-api-examples/blob/main/enums/blocks.md)
