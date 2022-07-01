@@ -1,9 +1,13 @@
 # minecraft-data
 
-Access it by using the [minecraft-data](https://www.npmjs.com/package/minecraft-data) package,
+Access it using two methods:
+- Using the [minecraft-data](https://www.npmjs.com/package/minecraft-data) package,
 which is installed with mineflayer automatically.
 ```js
-require('minecraft-data')(bot.version)
+const mcdata = require('minecraft-data')('<any version from 1.0.0 to 22w14a>');
 ```
-If you need it independent of mineflayer,
-instead of `bot.version` you can insert your own version from release 1.0.0 to 22w14a (latest 1.19 snapshot)
+
+- (RECOMMENDED) Using bot.registry after creating a mineflayer bot
+```js
+const mcdata = bot.registry;
+```
