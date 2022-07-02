@@ -40,3 +40,16 @@ const botOptions = {
 }
 const bot = mineflayer.createBot(botOptions);
 ```
+P.P.S. if you need to keep Intellisense, you can use JSDOC if you are using JavaScript or a type annotation if you are using TypeScript:
+```ts
+// JSDOC
+/* @type mineflayer.BotOptions */
+const botOptions = {
+    // ...
+}
+
+// TypeScript
+const botOptions: mineflayer.BotOptions = {
+    // ...
+}
+```
