@@ -27,4 +27,4 @@ with examples covering as much as possible to make it more understandable.
 - [Bot](https://github.com/NoNameLmao/mineflayer-api-examples/tree/main/bot) ⚠️
   - [bot.entity](https://github.com/NoNameLmao/mineflayer-api-examples/blob/main/bot/entity.md) ⚠️
   - [bot.world](https://github.com/NoNameLmao/mineflayer-api-examples/blob/main/bot/world.md) ✅
-  - [bot.registry](https://github.com/NoNameLmao/mineflayer-api-examples/blob/main/bot/entity.md) ✅
+  - [bot.registry](https://github.com/NoNameLmao/mineflayer-api-examples/blob/main/bot/registry.md) ✅
