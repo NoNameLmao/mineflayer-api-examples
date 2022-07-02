@@ -23,13 +23,13 @@ const bot = mineflayer.createBot({
     checkTimeoutInterval: 1000 * 60,    // default: 1000 * 30 (30 seconds). if the client does not recieve a keep alive packet from the server within that time, disconnect
     loadInternalPlugins: false,         // default: true
     storageBuilder,                     // "an optional function, takes as argument version and worldName and return an instance of something with the same API as prismarine-provider-anvil. Will be used to save the world."
-    client,                             // an instance of "node-minecraft-protocol". if ommited, a new one is created
+    client,                             // an instance of "node-minecraft-protocol". if omitted, a new one is created
     plugins: {                          // default: {} (empty)
         pluginName: false,              // don't load that internal plugin
         pluginName: true,               // load an internal plugin (⚠️ overrides loadInternalPlugins ⚠️)
         pluginName: () => {}            // external plugin inject (⚠️ overrides original plugin ⚠️)
     },
-    physicsEnabled: false              // default: true. should the bot be affected by physics? can be changed later with bot.physicsEnabled
+    physicsEnabled: false               // default: true. should the bot be affected by physics? can be changed later with bot.physicsEnabled
 });
 ```
 P.S. if you really want to have that many options, it would be better (sometimes) to copy them to a separate object, then providing that object as options:
