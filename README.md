@@ -17,3 +17,5 @@ with examples covering as much as possible to make it more understandable.
   - instruments ❌
   - biomes ❌
   - entities ❌
+- [Classes](https://github.com/NoNameLmao/mineflayer-api-examples/tree/main/classes) ⚠️
+  - [Entity](https://github.com/NoNameLmao/mineflayer-api-examples/blob/main/classes/entity.md) ⚠️
