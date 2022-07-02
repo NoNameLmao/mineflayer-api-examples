@@ -4,6 +4,7 @@ The bot object. Created from calling the `createBot()` function.
 
 *List of contents:*
 - [registry.md](https://github.com/NoNameLmao/mineflayer-api-examples/blob/main/bot/registry.md)
+- [world.md](https://github.com/NoNameLmao/mineflayer-api-examples/blob/main/bot/world.md)
 
 **Example with all options explained in comments:**
 ```js
