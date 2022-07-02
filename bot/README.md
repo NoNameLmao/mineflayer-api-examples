@@ -32,7 +32,7 @@ const bot = mineflayer.createBot({
     physicsEnabled: false               // default: true. should the bot be affected by physics? can be changed later with bot.physicsEnabled
 });
 ```
-P.S. if you really want to have that many options, it would be better (sometimes) to copy them to a separate object, then providing that object as options:
+P.S. if you really need to have that many options, it would be better (sometimes) to copy them to a separate object, then providing that object as options:
 ```js
 const mineflayer = require('mineflayer');
 const botOptions = {
